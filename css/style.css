@@ -2,12 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
     font-family: Fredoka;
 }
 
 .container {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -17,7 +16,7 @@ header {
     margin: 20px 0;
 }
 
-main p {
+.main-p {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -28,6 +27,42 @@ main p {
     clear: both;
 }
 
+.row .col {
+    width: calc(100%/3);
+}
+
 .col {
     float: left;
+}
+
+.col img {
+    width: 25%;
+}
+
+.container-cards {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    float: right;
+    width: 75%;
+    background-color: #0F0E17;
+    color: #fff;
+    padding: 19px 16px;
+}
+
+.cards h3 {
+    font-size: 18px;
+}
+
+.cards p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.cards a {
+    font-size: 16px;
+    color: #2188D4;
+    text-decoration: none;
 }
